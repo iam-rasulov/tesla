@@ -1,0 +1,120 @@
+.header{
+    width: 100%;
+    margin: 0 auto;
+    background-image: url(../images/02_Desktop.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.header__inner{
+    max-width: 1170px;
+    height: 900px;
+    text-align: center;
+}
+
+.header-inner__link__img {
+    width: 400px;
+    display: block;
+    height: 113px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.header-inner__title {
+    display: block;
+    width: 889px;
+    height: 33px;
+    margin: 0 auto;
+    margin-bottom: 500px;
+    font-family: $main-font-family;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32.78px;
+}
+
+.header-inner__span{
+    width: 221px;
+    height: 54px;
+    margin-bottom: 110px;
+}
+
+.header-inner__span__link{
+    width: 221px;
+    height: 54px;
+    font-family: $main-font-family;
+    font-size: 20px;
+    line-height: 26px;
+    text-decoration: none;
+    color: #fff;
+    border: 2px solid white;
+    padding: 14px 62px;
+}
+
+
+
+
+@media only screen and (max-width: 426px) and (min-width: 320px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    .header{
+        margin: 0 auto;
+        background-image: url(../images/mobile/tesla-header-bg.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .header__inner{
+        margin: 0 auto;
+        max-width: 346px;
+        height: 500px;
+    }
+    
+    .header-inner__link__img {
+        max-width: 200px;
+        height: 56px;
+        display: block;
+        height: 113px;
+        margin: 0 auto;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .header-inner__title {
+
+        display: block;
+        max-width: 301px;
+        height: 23px;
+        margin: 0 auto;
+        margin-bottom: 230px;
+        font-family: $main-font-family;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 24px;
+    }
+
+    
+    
+    .header-inner__span{
+        width: 346px;
+        height: 54px;
+        margin: 0 auto;
+        margin-bottom: 110px;
+    }
+    
+    .header-inner__span__link{
+        width: 335px;
+        height: 54px;
+        margin: 0 auto;
+        font-family: $main-font-family;
+        font-size: 20px;
+        line-height: 26px;
+        text-decoration: none;
+        color: #fff;
+        border: 2px solid white;
+        padding: 14px 62px;
+    }
+}
